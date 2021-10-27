@@ -134,8 +134,8 @@
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="banner__content">
-            <div class="banner__content-text" data-aos="fade-left" style="box-shadow: 10px 10px 5px grey; border-radius: 20px">
-              <div class="banner__content-text-inner">
+            <div class="banner__content-text" data-aos="fade-left" >
+              <div class="banner__content-text-inner" style="box-shadow: 10px 10px 5px grey; border-radius: 20px">
                 <div class="heading mb-40">
                   <span class="heading__subtitle">A Warm, Charming Atmosphere</span>
                   <h2 class="heading__title">Private Dining & Events</h2>
@@ -162,6 +162,8 @@
       </div><!-- /.row -->
     </div><!-- /.container -->
   </section><!-- /.Banner layout1 -->
+
+  
 @endsection
 
 @section('script')
