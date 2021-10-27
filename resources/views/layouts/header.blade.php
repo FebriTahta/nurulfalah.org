@@ -7,7 +7,7 @@
     <meta name="keywords" content="hotel, bed and breakfast, accommodations, travel, motel">
     <meta name="description" content="Albert - Hotel and Bed&amp;Breakfast">
     <meta name="author" content="Ansonika">
-    <title>Albert - Hotel and Bed&amp;Breakfast</title>
+    <title>Nurulfalah</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
