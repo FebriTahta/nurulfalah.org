@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{asset('css/card_hover.css')}}">
+<link rel="stylesheet" href="{{asset('css/clientslide.css')}}">
 {{-- slider ga dipakai --}}
 @endsection
 
@@ -128,7 +129,7 @@
     </div>
 </div> --}}
 
-<section id="bannerLayout2" class="banner banner-layout2 pb-130">
+<section id="bannerLayout2" class="banner banner-layout2 pb-130" style="background-color: white">
     <div class="bg-img"><img src="assets/images/backgrounds/pattern/1.png" alt="background"></div>
     <div class="container">
       <div class="row">
@@ -162,8 +163,6 @@
       </div><!-- /.row -->
     </div><!-- /.container -->
   </section><!-- /.Banner layout1 -->
-
-  
 @endsection
 
 @section('script')

@@ -1961,10 +1961,6 @@ textarea.form-control {
   line-height: 100px;
 }
 
-.navbar .logo-light {
-  display: none;
-}
-
 .navbar .navbar-toggler {
   padding: 0;
   border: none;
@@ -2143,14 +2139,6 @@ textarea.form-control {
   background-color: #ffffff;
 }
 
-.header-transparent .logo-light {
-  display: inline-block;
-}
-
-.header-transparent .logo-dark {
-  display: none;
-}
-
 .header-transparent .navbar__action-btn,
 .header-transparent .nav__item .nav__item-link {
   color: #ffffff;
@@ -2230,14 +2218,6 @@ textarea.form-control {
 
 .fixed-navbar .nav__item .nav__item-link {
   color: #333333;
-}
-
-.fixed-navbar .logo-light {
-  display: none;
-}
-
-.fixed-navbar .logo-dark {
-  display: inline-block;
 }
 
 .fixed-navbar .navbar__action-btn,
@@ -2688,14 +2668,7 @@ textarea.form-control {
   .header-transparent .navbar {
     background-color: #ffffff;
   }
-  .header .logo-dark,
-  .header-transparent .logo-dark {
-    display: inline-block;
-  }
-  .header .logo-light,
-  .header-transparent .logo-light {
-    display: none;
-  }
+
   .header .navbar__action-btn,
   .header .social__icons li a,
   .header-transparent .navbar__action-btn,
@@ -3302,28 +3275,9 @@ textarea.form-control {
   color: #ffffff;
 }
 
-.footer__logo-wrap {
-  position: relative;
-}
 
-.footer__logo-wrap:before, .footer__logo-wrap:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
-  height: 1px;
-  background-color: #2d2d2d;
-}
 
-.footer__logo-wrap:before {
-  right: calc(50% + 170px);
-}
 
-.footer__logo-wrap:after {
-  left: calc(50% + 170px);
-}
 
 .footer-top {
   padding-top: 90px;
@@ -3351,11 +3305,6 @@ textarea.form-control {
   z-index: 3;
 }
 
-.footer-layout2 .footer__logo-wrap:before,
-.footer-layout2 .footer__logo-wrap:after {
-  display: none;
-}
-
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .footer .contact-box {
     margin-bottom: 0;
@@ -3363,15 +3312,7 @@ textarea.form-control {
   .footer .contact-box .contact__box-title {
     margin: 10px;
   }
-  .footer__logo-wrap img {
-    max-width: 200px;
-  }
-  .footer__logo-wrap:before {
-    right: calc(50% + 110px);
-  }
-  .footer__logo-wrap:after {
-    left: calc(50% + 110px);
-  }
+
   .footer-top {
     padding-top: 30px;
   }
