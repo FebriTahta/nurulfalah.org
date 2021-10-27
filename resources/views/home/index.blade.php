@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="{{asset('css/card_hover.css')}}">
 <link rel="stylesheet" href="{{asset('css/clientslide.css')}}">
 {{-- slider ga dipakai --}}
+
 @endsection
 
 @include('layouts.slider')
@@ -128,7 +129,6 @@
         </div>
     </div>
 </div> --}}
-
 <section id="bannerLayout2" class="banner banner-layout2 pb-130" style="background-color: white">
     <div class="bg-img"><img src="assets/images/backgrounds/pattern/1.png" alt="background"></div>
     <div class="container">

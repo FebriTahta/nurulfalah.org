@@ -274,9 +274,11 @@ header #logo .logo_sticky{ display:none;}
 header.sticky #logo .logo_normal{ display:none;}
 header.sticky #logo .logo_sticky{ display:block; }
 #logo img{
-	height:35px;
+	/* height:35px;
 	width:auto;
-	margin:8px 0;
+	margin:8px 0; */
+	max-width: 150px;
+	margin: 10px 0;
 }
 ul#lang_top{
 	float:right;

@@ -1,89 +1,64 @@
-/* Slider */
-.slick-slide {
-    margin: 0px 20px;
-  }
-  
-  .logo-carousel {
-    overflow: inherit;
-    border-top: 1px solid #353535;
-    border-bottom: 1px solid #353535;
-  }
-  
-  .slick-slide img {
-    width: 100%;
-  }
-  
-  .slick-track::before,
-  .slick-track::after {
-    display: table;
-    content: '';
-  }
-  
-  .slick-track::after {
-    clear: both;
-  }
-  
-  .slick-track {
-    padding: 1rem 0;
-  }
-  
-  .slick-loading .slick-track {
-    visibility: hidden;
-  }
-  
-  .slick-slide.slick-loading img {
-    display: none;
-  }
-  
-  .slick-slide.dragging img {
-    pointer-events: none;
-  }
-  
-  .slick-loading .slick-slide {
-    visibility: hidden;
-  }
-  
-  .slick-arrow {
-    position: absolute;
-    top: 50%;
-    background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
-    color: #fff;
-    filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
-    border: none;
-    width: 2rem;
-    height: 1.5rem;
-    text-indent: -10000px;
-    margin-top: -16px;
-    z-index: 99;
-  }
-  
-  .slick-arrow.slick-next {
-    right: -40px;
-    transform: rotate(180deg);
-  }
-  
-  .slick-arrow.slick-prev {
-    left: -40px;
-  }
-  
-  /* Media Queries */
-  
-  @media (max-width: 768px) {
-    .slick-arrow {
-      width: 1rem;
-      height: 1rem;
-    }
-  }
-  
-  body {
-      background-color: #010101;
-    }
-    
-  .row {
-    overflow: hidden;
-  }  
-  
-  /* JsFiddle Example only/don't use */
-  .logo-carousel {
-    margin-top: 32px;
-  }
+body {
+  background: #eee
+}
+
+.brands {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px
+}
+
+.brands_slider_container {
+  height: 130px;
+  border: solid 1px #e8e8e8;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 97px;
+  padding-right: 97px;
+  background: #fff
+}
+
+.brands_slider {
+  height: 100%;
+  margin-top: 50px
+}
+
+.brands_item {
+  height: 100%
+}
+
+.brands_item img {
+  max-width: 100%
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+  color: #676767
+}
+
+.brands_prev {
+  left: 40px
+}
+
+.brands_next {
+  right: 40px
+}

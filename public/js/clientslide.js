@@ -1,22 +1,39 @@
-$(document).ready(function() {
-    $('.logo-carousel').slick({
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 1000,
-      arrows: true,
-      dots: false,
-      pauseOnHover: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 4
-        }
-      }, {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 2
-        }
-      }]
-    });
+$(document).ready(function(){
+
+  if($('.brands_slider').length)
+  {
+  var brandsSlider = $('.brands_slider');
+  
+  brandsSlider.owlCarousel(
+  {
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:5000,
+  nav:false,
+  dots:false,
+  autoWidth:true,
+  items:8,
+  margin:42
+  });
+  
+  if($('.brands_prev').length)
+  {
+  var prev = $('.brands_prev');
+  prev.on('click', function()
+  {
+  brandsSlider.trigger('prev.owl.carousel');
+  });
+  }
+  
+  if($('.brands_next').length)
+  {
+  var next = $('.brands_next');
+  next.on('click', function()
+  {
+  brandsSlider.trigger('next.owl.carousel');
+  });
+  }
+  }
+  
+  
   });

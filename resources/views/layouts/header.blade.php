@@ -25,9 +25,9 @@
     <link href="{{asset('css/menu.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
-    {{-- <link href="{{asset('css/fontello/css/icon_set_1.css')}}" rel="stylesheet">
+    <link href="{{asset('css/fontello/css/icon_set_1.css')}}" rel="stylesheet">
     <link href="{{asset('css/fontello/css/icon_set_2.css')}}" rel="stylesheet">
-    <link href="{{asset('css/fontello/css/fontello.css')}}" rel="stylesheet"> --}}
+    <link href="{{asset('css/fontello/css/fontello.css')}}" rel="stylesheet">
     <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
     
     <!-- SPECIFIC CSS -->
