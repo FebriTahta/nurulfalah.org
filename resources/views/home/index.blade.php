@@ -138,8 +138,8 @@
             <div class="banner__content-text">
               <div class="banner__content-text-inner" style="box-shadow: 10px 10px 5px grey; border-radius: 20px">
                 <div class="heading mb-40">
-                  <span class="heading__subtitle">A Warm, Charming Atmosphere</span>
-                  <h2 class="heading__title">Private Dining & Events</h2>
+                  <span class="heading__subtitle">Pesantren Al Quran</span>
+                  <h2 class="heading__title">Nurul Falah</h2>
                   <div class="heading__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                       <path
@@ -147,12 +147,12 @@
                         transform="translate(-505 -925)"></path>
                     </svg>
                   </div>
-                  <p class="heading__desc">Allow us to make your next special event extra special. We cater for all
-                    sized functions, ideal for your larger functions or an intimate gathering, our team can curate a
-                    menu to suit your taste.</p>
+                  <p class="heading__desc">Lembaga yang Konsis pada pendidikan Al Quran sejak tahun 1993. Mempunyai 
+                    mimpi besar untuk membangun 100 pesantren di 100 kota dan 5 benua.
+                  </p>
                 </div><!-- /.heading -->
-                <a href="#" class="btn btn__secondary btn__link mx-2 my-1">Explore Events</a>
-                <a href="#" class="btn btn__primary mx-2 my-1">Explore Events</a>
+                <a href="#" class="btn btn__secondary btn__link mx-2 my-1">Lebih Banyak Tentang Kami</a>
+                {{-- <a href="#" class="btn btn__primary mx-2 my-1">Explore Events</a> --}}
               </div><!-- /.banner__content-text-inner -->
             </div><!-- /.banner__content-text -->
             <div class="banner__content-img" data-aos="fade-right">
