@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12">
-                <img src="{{asset('img/logo_footer.png')}}" width="141" height="40" alt="" id="logo_footer" data-retina="true">
+                {{-- <img src="{{asset('img/logo_footer.png')}}" width="141" height="40" alt="" id="logo_footer" data-retina="true"> --}}
                 <ul id="contact_details_footer">
                       <li>Route de Sablet 1023, Marseille<br>France 01923</li>
                     <li><a href="tel://004542344599">+45 423 445 99</a> / <a href="#0">beta..</a></li>
