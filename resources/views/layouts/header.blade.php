@@ -57,8 +57,8 @@
         <div class="row">
             <div class="col--md-3 col-sm-3 col-xs-3">
                 <a href="index.html" id="logo">
-                <img src="{{asset('img/nf_logo_white.png')}}" width="190" height="23" alt="" data-retina="true" class="logo_normal">
-                <img src="{{asset('img/nf_logo.png')}}" width="190" height="23" alt="" data-retina="true" class="logo_sticky">
+                <img src="{{asset('img/nf_logo_white.png')}}"  alt="" data-retina="true" class="logo_normal">
+                <img src="{{asset('img/nf_logo.png')}}"  alt="" data-retina="true" class="logo_sticky">
                 </a>
             </div>
             <nav class="col--md-9 col-sm-9 col-xs-9">
