@@ -5,7 +5,7 @@
                 <img src="{{asset('img/logo_footer.png')}}" width="141" height="40" alt="" id="logo_footer" data-retina="true">
                 <ul id="contact_details_footer">
                       <li>Route de Sablet 1023, Marseille<br>France 01923</li>
-                    <li><a href="tel://004542344599">+45 423 445 99</a> / <a href="#0">info@albert.com</a></li>
+                    <li><a href="tel://004542344599">+45 423 445 99</a> / <a href="#0">beta..</a></li>
                 </ul>  
             </div>
             <div class="col-md-2 col-sm-4">
@@ -50,7 +50,7 @@
                         <li><a href="#"><i class="icon-vimeo"></i></a></li>
                         <li><a href="#"><i class="icon-youtube-play"></i></a></li>
                     </ul>
-                    <p>© Albert 2019</p>
+                    <p>© Beta 2019</p>
                 </div>
             </div>
         </div><!-- End row -->
