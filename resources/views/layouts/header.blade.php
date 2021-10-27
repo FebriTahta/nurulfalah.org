@@ -25,9 +25,9 @@
     <link href="{{asset('css/menu.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('css/fontello/css/icon_set_1.css')}}" rel="stylesheet">
+    {{-- <link href="{{asset('css/fontello/css/icon_set_1.css')}}" rel="stylesheet">
     <link href="{{asset('css/fontello/css/icon_set_2.css')}}" rel="stylesheet">
-    <link href="{{asset('css/fontello/css/fontello.css')}}" rel="stylesheet">
+    <link href="{{asset('css/fontello/css/fontello.css')}}" rel="stylesheet"> --}}
     <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
     
     <!-- SPECIFIC CSS -->
@@ -35,6 +35,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.default.css')}}">
 
+    {{-- assets --}}
+    <link rel="stylesheet" href="{{asset('assets/css/libraries.css')}}" />
+    <!-- <link rel="stylesheet" href="assets/css/animate.css" /> -->
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
     @yield('css')
 </head>
 

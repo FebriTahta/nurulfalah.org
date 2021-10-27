@@ -60,6 +60,7 @@
 <div id="toTop"></div><!-- Back to top button -->
     
 <!-- COMMON SCRIPTS -->
+{{-- <script src="{{asset('assets/js/jquery-3.3.1.min.js')}}"></script> --}}
 <script src="{{asset('js/jquery-1.11.2.min.js')}}"></script>
 <script src="{{asset('js/common_scripts_min.js')}}"></script>
 <script src="{{asset('assets/validate.js')}}"></script>
@@ -83,6 +84,10 @@
         // except the last line!
     });
 </script>
+
+<script src="{{asset('assets/js/plugins.js')}}"></script>
+<!-- <script src="assets/js/wow.min.js"></script> -->
+<script src="{{asset('assets/js/main.js')}}"></script>
 @yield('script')
 </body>
 </html>
